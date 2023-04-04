@@ -8,8 +8,8 @@ class Product {
 
   Product({
     required this.id,
-    required this.description,
     required this.title,
+    required this.description,
     required this.imageUrl,
     required this.price,
     this.isFavorite = false,
