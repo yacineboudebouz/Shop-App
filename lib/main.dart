@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'MySop',
+        
         theme: ThemeData(
           primarySwatch: Colors.purple,
           accentColor: Colors.deepOrange,
-          
           fontFamily: 'Lato'
         ),routes:  {
           ProductDetailsScreen.routeName :(context) => ProductDetailsScreen(),
